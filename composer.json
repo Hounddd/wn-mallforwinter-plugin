@@ -1,0 +1,23 @@
+{
+    "name": "hounddd/wn-mallforwinter-plugin",
+    "type": "winter-plugin",
+    "description": "Improve Offline.mall compatibility with WinterCMS.",
+    "homepage": "https://github.com/Hounddd/wn-mallforwinter-plugin",
+    "keywords": ["winter cms", "winter", "plugin", "mall"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hounddd - Damien MATHIEU",
+            "email": "damien@hounddd.fr",
+            "role": "Original Author"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "composer/installers": "~1.0",
+        "offline/oc-mall-plugin": "^1.14.3"
+    },
+    "extra": {
+        "installer-name": "mallforwinter"
+    }
+}
